@@ -1,0 +1,109 @@
+.home {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.home__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.home__ul {
+  padding: 30px 0px 0px 0px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home__ul_li {
+  list-style: none;
+  -webkit-box-shadow: 4px 4px 30px #eeeeee;
+          box-shadow: 4px 4px 30px #eeeeee;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.home__ul_li:hover {
+  -webkit-box-shadow: 4px 4px 30px #cecece;
+          box-shadow: 4px 4px 30px #cecece;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.home__ul_li_link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home__ul_li_link_img {
+  width: 250px;
+  height: 180px;
+}
+
+.home__ul_li_link_desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+@media screen and (max-width: 426px) {
+  .home__title {
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .home__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home__ul_li {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,129 @@
+.ladacar {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.ladacar__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 63px;
+  text-transform: uppercase;
+}
+
+.ladacar__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 30px 0px 0px 0px;
+}
+
+.ladacar__ul_li {
+  list-style: none;
+  -webkit-box-shadow: 2px 2px 30px #f0f0f0;
+          box-shadow: 2px 2px 30px #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.ladacar__ul_li:hover {
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  -webkit-box-shadow: 2px 2px 30px #cdcdcd;
+          box-shadow: 2px 2px 30px #cdcdcd;
+}
+
+.ladacar__ul_li_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  color: #000;
+}
+
+.ladacar__ul_li_link_img {
+  width: 240px;
+  height: 200px;
+}
+
+.ladacar__ul_li_link_desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0;
+}
+
+.ladacar__ul_li_link_sum {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.ladacar__ul_li_link_sum > span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 769px) {
+  .ladacar__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .ladacar__title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .ladacar__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ladacar__ul_li {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Ladacar.css.map */
