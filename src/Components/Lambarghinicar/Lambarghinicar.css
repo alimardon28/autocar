@@ -1,4 +1,4 @@
-.lambarghini {
+.lambarghinicar {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -6,7 +6,7 @@
   font-family: sans-serif;
 }
 
-.lambarghini__title {
+.lambarghinicar__title {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -16,7 +16,7 @@
   text-transform: uppercase;
 }
 
-.lambarghini__ul {
+.lambarghinicar__ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +32,7 @@
   padding: 30px 0px 0px 0px;
 }
 
-.lambarghini__ul_li {
+.lambarghinicar__ul_li {
   list-style: none;
   -webkit-box-shadow: 2px 2px 30px #f0f0f0;
           box-shadow: 2px 2px 30px #f0f0f0;
@@ -42,14 +42,14 @@
   transition: all 0.4s ease-in;
 }
 
-.lambarghini__ul_li:hover {
+.lambarghinicar__ul_li:hover {
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   -webkit-box-shadow: 2px 2px 30px #cdcdcd;
           box-shadow: 2px 2px 30px #cdcdcd;
 }
 
-.lambarghini__ul_li_link {
+.lambarghinicar__ul_li_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,12 +67,12 @@
   color: #000;
 }
 
-.lambarghini__ul_li_link_img {
+.lambarghinicar__ul_li_link_img {
   width: 240px;
   height: 200px;
 }
 
-.lambarghini__ul_li_link_desc {
+.lambarghinicar__ul_li_link_desc {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -82,7 +82,7 @@
   padding: 0;
 }
 
-.lambarghini__ul_li_link_sum {
+.lambarghinicar__ul_li_link_sum {
   margin: 0;
   padding: 0;
   font-weight: 500;
@@ -91,23 +91,23 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-.lambarghini__ul_li_link_sum > span {
+.lambarghinicar__ul_li_link_sum > span {
   font-weight: 600;
 }
 
 @media screen and (max-width: 769px) {
-  .lambarghini__title {
+  .lambarghinicar__title {
     font-size: 30px;
     line-height: 35px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .lambarghini__title {
+  .lambarghinicar__title {
     font-size: 25px;
     line-height: 33px;
   }
-  .lambarghini__ul {
+  .lambarghinicar__ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -122,7 +122,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .lambarghini__ul_li {
+  .lambarghinicar__ul_li {
     width: 100%;
   }
 }

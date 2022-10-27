@@ -3,6 +3,14 @@
   padding: 15px 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 30px #ebebeb;
+          box-shadow: 1px 1px 30px #ebebeb;
+  z-index: 9999;
 }
 
 .header__nav {
